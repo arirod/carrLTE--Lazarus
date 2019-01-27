@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="10"/>
+    <BuildModes Active="Default"/>
+    <Units Count="5">
+      <Unit0>
+        <Filename Value="project1.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="-1"/>
+        <CursorPos X="-1" Y="-1"/>
+        <UsageCount Value="20"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="unit1.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="Form1"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="Unit1"/>
+        <CursorPos X="31" Y="26"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="..\component\unt_cardlte.pas"/>
+        <ComponentName Value="LTECard"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Frame"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="106"/>
+        <CursorPos X="7" Y="126"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="C:\lazarus\lcl\forms.pp"/>
+        <UnitName Value="Forms"/>
+        <EditorIndex Value="2"/>
+        <TopLine Value="304"/>
+        <CursorPos X="19" Y="318"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="C:\lazarus\lcl\include\customframe.inc"/>
+        <EditorIndex Value="3"/>
+        <TopLine Value="155"/>
+        <CursorPos X="3" Y="196"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit4>
+    </Units>
+    <JumpHistory Count="30" HistoryIndex="29">
+      <Position1>
+        <Filename Value="unit1.pas"/>
+        <Caret Line="20" Column="80"/>
+      </Position1>
+      <Position2>
+        <Filename Value="unit1.pas"/>
+        <Caret Line="21" Column="80"/>
+      </Position2>
+      <Position3>
+        <Filename Value="unit1.pas"/>
+        <Caret Line="20" Column="80"/>
+      </Position3>
+      <Position4>
+        <Filename Value="unit1.pas"/>
+        <Caret Line="21" Column="80"/>
+      </Position4>
+      <Position5>
+        <Filename Value="unit1.pas"/>
+        <Caret Line="20" Column="80"/>
+      </Position5>
+      <Position6>
+        <Filename Value="unit1.pas"/>
+        <Caret Line="19" Column="80"/>
+      </Position6>
+      <Position7>
+        <Filename Value="unit1.pas"/>
+        <Caret Line="6" Column="6"/>
+      </Position7>
+      <Position8>
+        <Filename Value="..\component\unt_cardlte.pas"/>
+        <Caret Line="83" Column="3" TopLine="46"/>
+      </Position8>
+      <Position9>
+        <Filename Value="unit1.pas"/>
+        <Caret Line="6" Column="25"/>
+      </Position9>
+      <Position10>
+        <Filename Value="..\component\unt_cardlte.pas"/>
+        <Caret Line="85" Column="48" TopLine="56"/>
+      </Position10>
+      <Position11>
+        <Filename Value="..\component\unt_cardlte.pas"/>
+        <Caret Line="18" Column="13" TopLine="2"/>
+      </Position11>
+      <Position12>
+        <Filename Value="..\component\unt_cardlte.pas"/>
+        <Caret Line="86" Column="20" TopLine="53"/>
+      </Position12>
+      <Position13>
+        <Filename Value="..\component\unt_cardlte.pas"/>
+        <Caret Line="87" Column="21" TopLine="63"/>
+      </Position13>
+      <Position14>
+        <Filename Value="..\component\unt_cardlte.pas"/>
+        <Caret Line="141" Column="5" TopLine="19"/>
+      </Position14>
+      <Position15>
+        <Filename Value="C:\lazarus\lcl\forms.pp"/>
+        <Caret Line="318" Column="19" TopLine="304"/>
+      </Position15>
+      <Position16>
+        <Filename Value="..\component\unt_cardlte.pas"/>
+        <Caret Line="121" Column="35" TopLine="78"/>
+      </Position16>
+      <Position17>
+        <Filename Value="unit1.pas"/>
+        <Caret Line="6" Column="25"/>
+      </Position17>
+      <Position18>
+        <Filename Value="..\component\unt_cardlte.pas"/>
+        <Caret Line="87" Column="29" TopLine="67"/>
+      </Position18>
+      <Position19>
+        <Filename Value="..\component\unt_cardlte.pas"/>
+        <Caret Line="88" Column="22" TopLine="65"/>
+      </Position19>
+      <Position20>
+        <Filename Value="..\component\unt_cardlte.pas"/>
+        <Caret Line="87" Column="33" TopLine="66"/>
+      </Position20>
+      <Position21>
+        <Filename Value="..\component\unt_cardlte.pas"/>
+        <Caret Line="45" Column="5" TopLine="27"/>
+      </Position21>
+      <Position22>
+        <Filename Value="..\component\unt_cardlte.pas"/>
+        <Caret Line="22" Column="54" TopLine="21"/>
+      </Position22>
+      <Position23>
+        <Filename Value="..\component\unt_cardlte.pas"/>
+        <Caret Line="51" TopLine="23"/>
+      </Position23>
+      <Position24>
+        <Filename Value="..\component\unt_cardlte.pas"/>
+        <Caret Line="58" Column="19" TopLine="35"/>
+      </Position24>
+      <Position25>
+        <Filename Value="..\component\unt_cardlte.pas"/>
+        <Caret Line="159" Column="50" TopLine="156"/>
+      </Position25>
+      <Position26>
+        <Filename Value="..\component\unt_cardlte.pas"/>
+        <Caret Line="58" Column="25" TopLine="36"/>
+      </Position26>
+      <Position27>
+        <Filename Value="unit1.pas"/>
+        <Caret Line="6" Column="25"/>
+      </Position27>
+      <Position28>
+        <Filename Value="..\component\unt_cardlte.pas"/>
+        <Caret Line="169" Column="14" TopLine="140"/>
+      </Position28>
+      <Position29>
+        <Filename Value="unit1.pas"/>
+        <Caret Line="6" Column="25"/>
+      </Position29>
+      <Position30>
+        <Filename Value="unit1.pas"/>
+        <Caret Line="35" Column="31"/>
+      </Position30>
+    </JumpHistory>
+  </ProjectSession>
+</CONFIG>
