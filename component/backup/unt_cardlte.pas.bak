@@ -1,0 +1,210 @@
+unit unt_cardlte;
+
+{$mode objfpc}{$H+}
+
+interface
+
+uses
+  Classes,
+  SysUtils,
+  FileUtil,
+  Forms,
+  Controls,
+  ExtCtrls,
+  StdCtrls,
+  Graphics,
+  LCLType,
+  LCLIntf,
+  LResources,
+  LCLProc;
+
+type
+  TSampleEvent = procedure(MyText: String) of Object;
+  { TLTECard }
+
+  TLTECard = class(TFrame)
+    MainPanel: TPanel;
+    ImagePanel: TPanel;
+    StatusPanel: TPanel;
+    lbTextTitle: TLabel;
+    lbTextValue: TLabel;
+    Label3: TLabel;
+    Shape1: TShape;
+    Shape2: TShape;
+    Image1: TImage;
+  private
+    FTextTitle: string;
+    FTextValue: currency;
+    FProgressValue: integer;
+    FBGMainPanel: TColor;
+    BGStatusPanel: TColor;
+    FIconImage: TPicture;
+
+    FOnChange2: TNotifyEvent;
+    FOnSample: TSampleEvent;
+
+    //procedure SetTextTitle(const Value: string);
+    //procedure SetTextValue(const Value: currency);
+    //procedure SetProgressValue(const Value: integer);
+    procedure SetBGMainPanel(const Value: TColor);
+    //procedure SetBGpnlStatus(const Value: TColor);
+    //procedure SetIconImage(const Value: TPicture);
+    { Private declarations }
+  public
+    { Public declarations }
+    constructor Create(TheOwner: TComponent); override;
+    //destructor Destroy;
+
+    procedure Change; //override;
+    //property IconImage: TPicture read FIconImage write SetIconImage;
+    //property TextTitle: string read FTextTitle write SetTextTitle;
+    //property TextValue: currency read FTextValue write SetTextValue;
+    //property ProgressValue: integer read FProgressValue write SetProgressValue;
+    //property BGMainPanel: TColor read FBGMainPanel write SetBGMainPanel;
+    //property BGpnlStatus: TColor read BGStatusPanel write SetBGpnlStatus;
+  published
+    //property TextTitle: string read FTextTitle;
+    //property TextValue: currency read FTextValue write SetTextValue;
+    //property ProgressValue: integer read FProgressValue write SetProgressValue;
+    property BGMainPanel: TColor read FBGMainPanel write SetBGMainPanel;
+    //property BGpnlStatus: TColor read BGStatusPanel write SetBGpnlStatus;
+
+    //
+    property Align;
+    property Anchors;
+    property AutoScroll;
+    property AutoSize;
+    property BiDiMode;
+    property BorderSpacing;
+    property ChildSizing;
+    property ClientHeight;
+    property ClientWidth;
+    property Color nodefault;
+    property Constraints;
+    property DesignTimePPI;
+    property DockSite;
+    property DragCursor;
+    property DragKind;
+    property DragMode;
+    property Enabled;
+    property Font;
+    property OnConstrainedResize;
+    property OnContextPopup;
+    property OnDblClick;
+    property OnDockDrop;
+    property OnDockOver;
+    property OnDragDrop;
+    property OnDragOver;
+    property OnEndDock;
+    property OnEndDrag;
+    property OnEnter;
+    property OnExit;
+    property OnGetSiteInfo;
+    property OnMouseDown;
+    property OnMouseEnter;
+    property OnMouseLeave;
+    property OnMouseMove;
+    property OnMouseUp;
+    property OnMouseWheel;
+    property OnMouseWheelDown;
+    property OnMouseWheelUp;
+    property OnResize;
+    property OnStartDock;
+    property OnStartDrag;
+    property OnUnDock;
+    property ParentBiDiMode;
+    property ParentColor;
+    property ParentFont;
+    property ParentShowHint;
+    property PopupMenu;
+    property Scaled;
+    property ShowHint;
+    property TabOrder;
+    property TabStop;
+    property Visible;
+
+  end;
+
+procedure Register;
+
+implementation
+
+{$R *.lfm}
+
+procedure Register;
+begin
+  {$I LTECard.lrs}
+  RegisterComponents('LTE Components', [TLTECard]);
+end;
+
+constructor TLTECard.Create(TheOwner: TComponent);
+begin
+  inherited Create(TheOwner);
+
+  Self.Width := 580;
+  Self.Height := 124;
+  Self.FBGMainPanel := clCream;
+  ////
+  //Self.FTextTitle := 'TESTE DE COMPONENTE TITULO';
+  ////TextValue := 0.0;
+  ////ProgressValue := 0;
+  ////BGMainPanel:= cl
+  ////BGpnlStatus:= T
+
+end;
+
+procedure TLTECard.Change;
+begin
+   if Assigned(FOnChange2) then FOnChange2(Self);
+  //if Assigned(FOnSample) then FOnSample(FMyText);
+end;
+
+{ TLTECard }
+
+procedure TLTECard.SetBGMainPanel(const Value: TColor);
+begin
+  FBGMainPanel := Value;
+  //ImagePanel.Color := FBGMainPanel;
+  //MainPanel.Color := FBGMainPanel;
+end;
+
+(*
+procedure TLTECard.SetBGpnlStatus(const Value: TColor);
+begin
+  BGStatusPanel := Value;
+  StatusPanel.Color := BGStatusPanel;
+end;
+
+procedure TLTECard.SetIconImage(const Value: TPicture);
+begin
+  FIconImage := Value;
+  Image1.Picture := FIconImage;
+end;
+
+procedure TLTECard.SetProgressValue(const Value: integer);
+begin
+  FProgressValue := Value;
+  Shape2.Width := Round(Value * (Shape1.Width / 100));
+end;
+
+procedure TLTECard.SetTextTitle(const Value: string);
+begin
+  FTextTitle := Value;
+  lbTextTitle.Caption := FTextTitle;
+end;
+
+procedure TLTECard.SetTextValue(const Value: currency);
+begin
+  FTextValue := Value;
+  lbTextValue.Caption := FormatCurr('#,##0.00', FTextValue);
+end;
+*)
+
+
+//
+//destructor TLTECard.Destroy;
+//begin
+//  inherited;
+//end;
+//
+end.
